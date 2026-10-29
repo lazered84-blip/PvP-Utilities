@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.pvputilities.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientLevelDataMixin",
+    "ClientPacketListenerMixin",
+    "EntityHitboxDebugRendererMixin",
+    "EntityRendererMixin",
+    "EquipmentLayerRendererMixin",
+    "GuiMixin",
+    "HumanoidArmorLayerMixin",
+    "ItemInHandLayerMixin",
+    "ItemInHandRendererMixin",
+    "ItemStackRenderStateMixin",
+    "LevelMixin",
+    "LivingEntityRenderStateMixin",
+    "LivingEntityRendererMixin",
+    "MinecraftMixin",
+    "OverlayTextureAccessor",
+    "PlayerTabOverlayMixin",
+    "ScreenInvoker",
+    "SubmitNodeCollectionMixin",
+    "WindowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pvp_utilities",
+  "version": "${version}",
+  "name": "PvP-Utilities",
+  "description": "PvP utilities: reach display, crosshair indicator, saturation bar, damage tint (skin + armor), momentum bar, fullbright and hitbox customisation.",
+  "authors": ["Laz3red", "lazgoated"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pvp_utilities/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fr.pvputilities.PvpUtilities"],
+    "modmenu": ["fr.pvputilities.PvpUtilitiesModMenu"]
+  },
+  "mixins": ["pvp_utilities.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  }
+}
